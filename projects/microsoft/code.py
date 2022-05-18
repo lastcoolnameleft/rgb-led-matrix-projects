@@ -11,7 +11,7 @@ from adafruit_matrixportal.matrixportal import MatrixPortal
 BITPLANES = 6      # Ideally 6, but can set lower if RAM is tight
 MATRIX = MatrixPortal(status_neopixel=board.NEOPIXEL, debug=True, bit_depth=BITPLANES)
 DISPLAY = MATRIX.display
-FILENAME = '/bmp/microsoft.bmp'
+FILENAME = '/bmp/microsoft-kubernetes.bmp'
 
 # Create a new label with the color and text selected
 MATRIX.add_text(
